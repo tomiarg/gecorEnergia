@@ -23,6 +23,7 @@ export const Header = () => {
       <div className="header__overlay">
         <Nav/>
         <h1 className="header__heading">{headerData[heroCount].text1}</h1>
+        <a href="#" className="header__button">Consultanos</a>
       </div> 
       <div className="header-dot-play">
         <ul className="header-dots">

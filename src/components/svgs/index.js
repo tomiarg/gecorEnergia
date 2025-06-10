@@ -1,3 +1,7 @@
 export * from "./Instagram"
 export * from "./Whatsapp"
 export * from "./Mail"
+export * from "./LuzSolar"
+export * from "./Thunder"
+export * from "./House"
+export * from "./Farm"

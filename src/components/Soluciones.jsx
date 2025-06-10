@@ -7,7 +7,8 @@ export const Soluciones = () => {
             <h2 className="soluciones__heading">Soluciones energéticas que mueven tu industria</h2>  
             <p>Generadores a diésel, gas o duales,
                 adaptados a cada requerimiento.
-            </p>   
+            </p> 
+            <a href="#" className="header__button">Te asesoramos</a>  
         </div>    
     </section>
   )

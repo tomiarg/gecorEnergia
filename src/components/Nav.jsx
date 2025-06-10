@@ -11,9 +11,8 @@ export const Nav = () => {
        <div className="nav__menu">
             <ul className='nav__list nav__list-guide'>
                 <li><a href="#">Equipos</a></li>
-                <li><a href="#">Fabricación</a></li>
-                <li><a href="">Alquiler</a></li>
-                <li><a href="">Servicio Técnico</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="">Contacto</a></li>
             </ul>
        </div>
        <div className="nav__menu">
