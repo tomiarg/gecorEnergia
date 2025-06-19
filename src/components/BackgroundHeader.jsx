@@ -1,4 +1,4 @@
-import image1 from "../assets/img/gecorHero.webp"
+import image1 from "../assets/img/fabricaLuz.jpg"
 import image2 from "../assets/img/alejado.jpg"
 import image3 from "../assets/img/rayoCiudad.jpg"
 

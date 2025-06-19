@@ -3,7 +3,7 @@
 export const Contacto = () => {
   return (
 
-    <section className="contacto--footer">
+    <section className="contacto--footer" id="Contact">
       <div className="contacto">
 
         <div className="contacto__potencia">

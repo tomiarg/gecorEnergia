@@ -4,7 +4,7 @@ import { Nav, BackgroundHeader  } from "./"
 
 export const Header = () => {
   let headerData =[
-    {text1: "Fabricamos Generadores"},
+    {text1: "Fabricamos Grupos Electrógenos"},
     {text1: "Energía en todos lados"},
     {text1: "Energía siempre "}
   ]
@@ -23,7 +23,7 @@ export const Header = () => {
       <div className="header__overlay">
         <Nav/>
         <h1 className="header__heading">{headerData[heroCount].text1}</h1>
-        <a href="#" className="header__button">Consultanos</a>
+        <a href="mailto:comercial@gecor.com" target="_blank" className="header__button">Consultanos</a>
       </div> 
       <div className="header-dot-play">
         <ul className="header-dots">

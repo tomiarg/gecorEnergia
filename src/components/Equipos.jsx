@@ -1,32 +1,34 @@
-import { Farm, House, LuzSolar,Thunder } from "./svgs"
+import { LuzSolar,Thunder } from "./svgs"
 
 
 export const Equipos = () => {
   return (
-    <section className="equipos">
+    <section className="equipos" id="Equipado">
         <h2 className="equipos__heading">Equipos confiables</h2>
         <p className="equipos__frase">Energía sin interrupciones, donde y cuando la necesites</p>
         <div className="equipos__grid">
+           
+        
             <div className="equipos__equipo">
+
+              <div>
+                <h1 className="equipos__arg">Industria Argentina</h1>
+                <p> Fabricados en Argentina, en cada detalle de fabricación los estándares más altos.</p>
+
+              </div>
+              <div>
+                <h1>Servicio receptivo.</h1>
+                <p> Presupuestos el mismo día. Envío a tiempo. Garantías que cumplen lo que prometen, sin semanas de tiempo de espera ni cargos sorpresa.</p>
+              </div>
+
+                
+            </div>
+             <div className="equipos__equipo">
                 <Thunder/>
-                <h3>Generadores a Diésel</h3>
+                <h3>Grupos electrógrenos Potentes</h3>
                 <p>Alta potencia y rendimiento continuo para tus proyectos más exigentes.</p>
             </div>
-            <div className="equipos__equipo">
-                <House/>
-                <h3>Generadores a Gas</h3>
-                <p>La solución eficiente y silenciosa para hogares, barrios cerrados y sistemas de respaldo 24/7.</p>
-            </div>
-            <div className="equipos__equipo">
-                <Farm/>
-                <h3>Generadores Biodiesel</h3>
-                <p>Convertí residuos orgánicos en energía limpia y aprovechá al máximo tus recursos.</p>
-            </div>
-            <div className="equipos__equipo">
-               <LuzSolar/>
-                <h3>Generadores a luz Solar</h3>
-                <p>Autonomía energética total con sistemas solares confiables y sustentables.</p>
-            </div>
+
         </div>
     </section>
   )

@@ -1,10 +1,10 @@
-import motor1 from "../assets/img/motorRojo.jpg"
+import motor1 from "../assets/img/grupoRojoFrente.jpg"
 import motor2 from "../assets/img/grupoInsonoro2.jpg"
 import motor3 from "../assets/img/motorDentro.jpg"
 
 export const Main = () => {
   return (
-    <main className="main">
+    <main className="main" id="Servicios">
         <div className="main__box">
             <img className="main__imagen" src={motor1} alt="Motor Armado" />
             <h3>Fabricación</h3>
